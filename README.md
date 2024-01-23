@@ -10,6 +10,46 @@ A python script to extract [mjjonone/mjj](https://github.com/mjjonone/mjj) Proxi
 
 </div>
 
+<details>
+
+<summary>订阅链接</summary>
+
+- Clash Meta (不带WARP):
+  
+  [https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta.yaml](https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta.yaml)
+
+- Clash Meta (带WARP):
+  
+  [https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta_warp.yaml](https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta_warp.yaml)
+
+- Base64:
+
+  [https://raw.githubusercontent.com/linzjian666/chrome_extractor/main/outputs/base64](https://raw.githubusercontent.com/linzjian666/chrome_extractor/main/outputs/base64)
+
+- Proxy urls:
+
+  [https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/proxy_urls](https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/proxy_urls)
+
+(备用)
+
+- Clash Meta (不带WARP):
+  
+  [https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/clash_meta.yaml](https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/clash_meta.yaml)
+
+- Clash Meta (带WARP):
+  
+  [https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/clash_meta_warp.yaml](https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/clash_meta_warp.yaml)
+  
+- Base64:
+
+  [https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/base64](https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/base64)
+
+- Proxy urls:
+
+  [https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/proxy_urls](https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/proxy_urls)
+
+</details>
+
 ## 免责声明
 
 **本项目仅供自用，作者不对其在实际使用中产生的任何后果负任何法律或技术责任。**
