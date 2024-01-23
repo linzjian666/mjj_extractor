@@ -3,7 +3,7 @@
 Author: Linzjian666
 Date: 2024-01-22 23:02:35
 LastEditors: Linzjian666
-LastEditTime: 2024-01-23 23:16:47
+LastEditTime: 2024-01-24 00:03:42
 '''
 import yaml
 import urllib.request
@@ -113,4 +113,4 @@ if __name__ == '__main__':
     proxies = []
     write_urls_file('./outputs/vless_urls', vless_urls)
     write_base64_file('./outputs/base64', './outputs/vless_urls')
-    write_clash_meta_profile('./templates/clash_meta.yaml', './outputs/clash-meta.yaml', vless_urls)
+    write_clash_meta_profile('./templates/clash_meta.yaml', './outputs/clash_meta.yaml', vless_urls)
