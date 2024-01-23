@@ -1,0 +1,41 @@
+name: Auto Extract
+
+on:
+    push:
+        branches:
+            - main
+    schedule:
+        - cron: "0 0,6,12,18 * * *"
+    workflow_dispatch:
+jobs:
+    Extract:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: 3.11
+            
+            - name: Install dependencies
+              run: pip install -r requirements.txt
+
+            - name: Run extract script
+              run: python main.py
+
+            - name: Set Date env
+              run: echo "DATE=$(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+              
+            - name: Commit & Push changes
+              env:
+                  GITHUB_TOKEN: ${{ github.token }}
+              uses: stefanzweifel/git-auto-commit-action@v4.16.0
+              with:
+                    commit_message: Auto extract by Github Actions at UTC ${{ env.DATE }}
+                    create_branch: true
+                    branch: main
+                    commit_options: '--allow-empty'
+                    push_options: '--force'
