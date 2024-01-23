@@ -15,12 +15,9 @@ A python script to extract [mjjonone/mjj](https://github.com/mjjonone/mjj) Proxi
 
 <summary>Subscription Links</summary>
 
-- Clash Meta (without WARP): 
+- Clash Meta: 
 
-  [https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta.yaml](https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta.yaml)
-- Clash Meta (with WARP): 
-
-  [https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta_warp.yaml](https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta_warp.yaml)
+  [https://raw.githubusercontent.com/linzjian666/mjj_extractor/main/outputs/clash_meta.yaml](https://raw.githubusercontent.com/linzjian666/mjj_extractor/main/outputs/clash_meta.yaml)
 
 - Base64:
 
@@ -28,25 +25,21 @@ A python script to extract [mjjonone/mjj](https://github.com/mjjonone/mjj) Proxi
 
 - Proxy urls:
 
-  [https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/proxy_urls](https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/proxy_urls)
+  [https://raw.githubusercontent.com/linzjian666/mjj_extractor/main/outputs/proxy_urls](https://raw.githubusercontent.com/linzjian666/mjj_extractor/main/outputs/proxy_urls)
 
 (Alternate)
 
-- Clash Meta (without WARP): 
+- Clash Meta: 
 
-  [https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/clash_meta.yaml](https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/clash_meta.yaml)
-
-- Clash Meta (with WARP): 
-
-  [https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/clash_meta_warp.yaml](https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/clash_meta_warp.yaml)
+  [https://fastly.jsdelivr.net/gh/linzjian666/mjj_extractor@main/outputs/clash_meta.yaml](https://fastly.jsdelivr.net/gh/linzjian666/mjj_extractor@main/outputs/clash_meta.yaml)
   
 - Base64:
 
-  [https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/base64](https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/base64)
+  [https://fastly.jsdelivr.net/gh/linzjian666/mjj_extractor@main/outputs/base64](https://fastly.jsdelivr.net/gh/linzjian666/mjj_extractor@main/outputs/base64)
 
 - Proxy urls:
 
-  [https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/proxy_urls](https://fastly.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/proxy_urls)
+  [https://fastly.jsdelivr.net/gh/linzjian666/mjj_extractor@main/outputs/proxy_urls](https://fastly.jsdelivr.net/gh/linzjian666/mjj_extractor@main/outputs/proxy_urls)
 
 </details>
 
