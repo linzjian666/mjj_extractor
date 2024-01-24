@@ -11,7 +11,7 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
-- name: 🇫🇷 FR-SASU-vl
+- name: 🇫🇷 FR-SASU-vl-1
   server: download.yunzhongzhuan.com
   port: '8080'
   type: vless
@@ -22,7 +22,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: fr.king361.link
-- name: 🇸🇬 SG-vl
+- name: 🇸🇬 SG-vl-2
   server: download.yunzhongzhuan.com
   port: '8080'
   type: vless
@@ -33,7 +33,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: sg.king361.cf
-- name: 🇮🇪 IE-Amazon.com
+- name: 🇮🇪 IE-Amazon.com-3
   server: download.yunzhongzhuan.com
   port: '8080'
   type: vless
@@ -44,7 +44,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: hbets.king361.cf
-- name: 🇵🇱 PL-Sp. z o.o.
+- name: 🇵🇱 PL-Sp. z o.o.-4
   server: download.yunzhongzhuan.com
   port: '8080'
   type: vless
@@ -55,7 +55,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: ob.king.now.cc
-- name: 🇩🇪 DE-Hetzner
+- name: 🇩🇪 DE-Hetzner-5
   server: download.yunzhongzhuan.com
   port: '8080'
   type: vless
@@ -66,7 +66,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: po.king.now.cc
-- name: 🇺🇸 US-AMAZON
+- name: 🇺🇸 US-AMAZON-6
   server: download.yunzhongzhuan.com
   port: '8080'
   type: vless
@@ -77,7 +77,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: hug.king.now.cc
-- name: 🇩🇪 DE-Amazon.com-Vl
+- name: 🇸🇬 SG-Amazon.com-Vl-7
   server: download.yunzhongzhuan.com
   port: '8080'
   type: vless
@@ -87,85 +87,8 @@ proxies:
   ws-opts:
     path: /argo-vless?ed=2048
     headers:
-      Host: previously-develops-plates-icq.trycloudflare.com
-- name: 🇸🇬 SG-Amazon.com-Vl
-  server: download.yunzhongzhuan.com
-  port: '8080'
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: indicate-marketing-tracks-ford.trycloudflare.com
-- name: 🇫🇷 FR-OVH_SAS-Vl
-  server: download.yunzhongzhuan.com
-  port: '8080'
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: sources-routines-switching-palmer.trycloudflare.com
-- name: 🇺🇸 US-Digital_Ocean-Vl
-  server: download.yunzhongzhuan.com
-  port: '8080'
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: week-manitoba-formula-sterling.trycloudflare.com
-- name: 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  server: download.yunzhongzhuan.com
-  port: '8080'
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: viii-certain-literally-barbie.trycloudflare.com
-- name: 🇬🇧 GB-Google_Cloud-Vl
-  server: download.yunzhongzhuan.com
-  port: '8080'
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: marc-clark-connect-directed.trycloudflare.com
-- name: 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  server: download.yunzhongzhuan.com
-  port: '8080'
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: us.king361.cf
-- name: 🇺🇸 US-Microsoft_Azure-Vl
-  server: download.yunzhongzhuan.com
-  port: '8080'
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: emily-sun-admin-else.trycloudflare.com
-- name: 🇯🇵 JP-Packet_Host-Vl
+      Host: repeated-switzerland-parade-buy.trycloudflare.com
+- name: 🇯🇵 JP-Packet_Host-Vl-8
   server: download.yunzhongzhuan.com
   port: '8080'
   type: vless
@@ -176,7 +99,51 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: jp.king361.cf
-- name: 🇺🇸 US-Google_Cloud-Vl
+- name: 🇩🇪 DE-Amazon.com-Vl-9
+  server: download.yunzhongzhuan.com
+  port: '8080'
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: energy-offering-helen-directions.trycloudflare.com
+- name: 🇺🇸 US-Digital_Ocean-Vl-10
+  server: download.yunzhongzhuan.com
+  port: '8080'
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: week-manitoba-formula-sterling.trycloudflare.com
+- name: 🇫🇷 FR-OVH_SAS-Vl-11
+  server: download.yunzhongzhuan.com
+  port: '8080'
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: sources-routines-switching-palmer.trycloudflare.com
+- name: 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  server: download.yunzhongzhuan.com
+  port: '8080'
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: viii-certain-literally-barbie.trycloudflare.com
+- name: 🇺🇸 US-Google_Cloud-Vl-13
   server: download.yunzhongzhuan.com
   port: '8080'
   type: vless
@@ -187,7 +154,40 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: bios-relaxation-applies-outsourcing.trycloudflare.com
-- name: 🇰🇷 KR-Seoul-Oracle Svenska AB
+- name: 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  server: download.yunzhongzhuan.com
+  port: '8080'
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: us.king361.cf
+- name: 🇬🇧 GB-Google_Cloud-Vl-15
+  server: download.yunzhongzhuan.com
+  port: '8080'
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: marc-clark-connect-directed.trycloudflare.com
+- name: 🇺🇸 US-Microsoft_Azure-Vl-16
+  server: download.yunzhongzhuan.com
+  port: '8080'
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: emily-sun-admin-else.trycloudflare.com
+- name: 🇰🇷 KR-Seoul-Oracle Svenska AB-17
   server: 131.186.21.148
   port: '20010'
   type: vless
@@ -198,7 +198,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba
+- name: 🇭🇰 HK-Hong Kong-Alibaba-18
   server: 8.212.45.92
   port: '34237'
   type: vless
@@ -209,7 +209,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇯🇵 JP-Tokyo-xTom
+- name: 🇯🇵 JP-Tokyo-xTom-19
   server: 193.111.31.143
   port: '12587'
   type: vless
@@ -220,7 +220,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇰🇷 KR-Seoul-Oracle Cloud
+- name: 🇰🇷 KR-Seoul-Oracle Cloud-20
   server: 131.186.20.70
   port: '27011'
   type: vless
@@ -231,20 +231,9 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇰🇷 KR-Tokyo-Oracle Cloud
+- name: 🇰🇷 KR-Tokyo-Oracle Cloud-21
   server: 193.122.124.142
   port: '15728'
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇰🇷 KR-Tokyo-Oracle Cloud
-  server: 146.56.162.8
-  port: '2096'
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: false
@@ -259,326 +248,314 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 - name: 📺 巴哈姆特
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 - name: 📺 哔哩哔哩
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 - name: 🌏 国内媒体
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 - name: 📲 电报信息
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 - name: 📢 谷歌FCM
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 - name: 🤖 OpenAI
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -593,28 +570,27 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-SASU-vl
-  - 🇸🇬 SG-vl
-  - 🇮🇪 IE-Amazon.com
-  - 🇵🇱 PL-Sp. z o.o.
-  - 🇩🇪 DE-Hetzner
-  - 🇺🇸 US-AMAZON
-  - 🇩🇪 DE-Amazon.com-Vl
-  - 🇸🇬 SG-Amazon.com-Vl
-  - 🇫🇷 FR-OVH_SAS-Vl
-  - 🇺🇸 US-Digital_Ocean-Vl
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl
-  - 🇬🇧 GB-Google_Cloud-Vl
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl
-  - 🇺🇸 US-Microsoft_Azure-Vl
-  - 🇯🇵 JP-Packet_Host-Vl
-  - 🇺🇸 US-Google_Cloud-Vl
-  - 🇰🇷 KR-Seoul-Oracle Svenska AB
-  - 🇭🇰 HK-Hong Kong-Alibaba
-  - 🇯🇵 JP-Tokyo-xTom
-  - 🇰🇷 KR-Seoul-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
-  - 🇰🇷 KR-Tokyo-Oracle Cloud
+  - 🇫🇷 FR-SASU-vl-1
+  - 🇸🇬 SG-vl-2
+  - 🇮🇪 IE-Amazon.com-3
+  - 🇵🇱 PL-Sp. z o.o.-4
+  - 🇩🇪 DE-Hetzner-5
+  - 🇺🇸 US-AMAZON-6
+  - 🇸🇬 SG-Amazon.com-Vl-7
+  - 🇯🇵 JP-Packet_Host-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇫🇷 FR-OVH_SAS-Vl-11
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-12
+  - 🇺🇸 US-Google_Cloud-Vl-13
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-15
+  - 🇺🇸 US-Microsoft_Azure-Vl-16
+  - 🇰🇷 KR-Seoul-Oracle Svenska AB-17
+  - 🇭🇰 HK-Hong Kong-Alibaba-18
+  - 🇯🇵 JP-Tokyo-xTom-19
+  - 🇰🇷 KR-Seoul-Oracle Cloud-20
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-21
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

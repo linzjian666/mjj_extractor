@@ -3,7 +3,7 @@
 Author: Linzjian666
 Date: 2024-01-22 23:02:35
 LastEditors: Linzjian666
-LastEditTime: 2024-01-24 00:03:42
+LastEditTime: 2024-01-24 09:07:31
 '''
 import yaml
 import urllib.request
@@ -17,17 +17,17 @@ def process_url(urls_file):
         urls = f.read().splitlines()
     headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
     
-    proxies_urls = ''
+    proxy_urls = ''
     
     for url in urls:
         req = urllib.request.Request(url, headers=headers)
         response = urllib.request.urlopen(req)
         proxies_base64 = response.read().decode('utf-8')
         
-        proxies_urls += base64.b64decode(proxies_base64).decode('utf-8')
+        proxy_urls += base64.b64decode(proxies_base64).decode('utf-8')
         
     
-    return proxies_urls
+    return proxy_urls
 
 def extract_vless_urls(data):
     all_vless_urls = re.findall(r'vless://[^\n]+', data)
@@ -37,22 +37,23 @@ def extract_vless_urls(data):
         if(name in ['ed','Author%3A%20mjjonone']):
             continue
         vless_urls.append(vless_url)
-    for i, vless_url in enumerate(vless_urls):  # 删去security及sni字段
-        security = re.search(r'(security=[^&]+)&(sni=[^&]+)', vless_url)
+    for i, vless_url in enumerate(vless_urls):
+        security = re.search(r'(security=[^&]+)&(sni=[^&]+)', vless_url)  # 删去security及sni字段
         vless_urls[i] = vless_url.replace(security.group(0), "security=none")
         name = re.search(r'#([^&]+)', vless_url).group(1)
-        country = re.search(r'([A-Z]{2})-', vless_url).group(1)
+        country = re.search(r'([A-Z]{2})-', name).group(1)
         flag_emoji = ''
         for j in range(len(country)):
             flag_emoji += chr(ord(country[j]) + ord('🇦') - ord('A'))  # 
         if(flag_emoji == '🇹🇼'):
             flag_emoji = '🇨🇳'
-        vless_urls[i] = vless_urls[i].replace(name, f'{flag_emoji} {name}')
+        vless_urls[i] = vless_urls[i].replace(name, f'{flag_emoji} {name}-{int(i)+1}')
         logging.info(f'已处理: {vless_urls[i]}')
     
     return vless_urls
 
 def write_clash_meta_profile(template_file, output_file, proxy_urls):
+    proxies = []
     with open(template_file, 'r', encoding='utf-8') as f:
         profile = yaml.safe_load(f)
     for proxy_url in proxy_urls:
@@ -108,9 +109,8 @@ def write_base64_file(output_file, proxy_urls_file):
         f.write(base64.b64encode(proxy_urls.encode('utf-8')).decode('utf-8'))
 
 if __name__ == '__main__':
-    proxies_urls = process_url('urls.txt')
-    vless_urls = extract_vless_urls(proxies_urls)
-    proxies = []
+    proxy_urls = process_url('urls.txt')
+    vless_urls = extract_vless_urls(proxy_urls)
     write_urls_file('./outputs/vless_urls', vless_urls)
     write_base64_file('./outputs/base64', './outputs/vless_urls')
     write_clash_meta_profile('./templates/clash_meta.yaml', './outputs/clash_meta.yaml', vless_urls)
