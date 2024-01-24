@@ -3,7 +3,7 @@
 Author: Linzjian666
 Date: 2024-01-22 23:02:35
 LastEditors: Linzjian666
-LastEditTime: 2024-01-24 09:07:31
+LastEditTime: 2024-01-24 10:04:43
 '''
 import yaml
 import urllib.request
@@ -61,7 +61,7 @@ def write_clash_meta_profile(template_file, output_file, proxy_urls):
         name = unquote(name)  # URL解码
         uuid = re.search(r'vless://([^@]+)@([^:]+):([^?]+)', proxy_url).group(1)
         server = re.search(r'vless://([^@]+)@([^:]+):([^?]+)', proxy_url).group(2)
-        port = re.search(r'vless://([^@]+)@([^:]+):([^?]+)', proxy_url).group(3)
+        port = int(re.search(r'vless://([^@]+)@([^:]+):([^?]+)', proxy_url).group(3))
         host = re.search(r'host=([^&]+)&', proxy_url).group(1)
         path = re.search(r'path=([^#]+)#', proxy_url).group(1)
         path = unquote(path)
