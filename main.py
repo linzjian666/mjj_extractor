@@ -3,7 +3,7 @@
 Author: Linzjian666
 Date: 2024-01-22 23:02:35
 LastEditors: Linzjian666
-LastEditTime: 2024-01-27 15:59:20
+LastEditTime: 2024-01-27 16:54:34
 '''
 import yaml
 import urllib.request
@@ -75,22 +75,51 @@ def write_clash_meta_profile(template_file, output_file, proxy_urls):
         host = re.search(r'host=([^&]+)&', proxy_url).group(1)
         path = re.search(r'path=([^#]+)#', proxy_url).group(1)
         path = unquote(path)
-
-        proxy = {
-            "name": f"{name}",
-            "server": server,
-            "port": port,
-            "type": "vless",
-            "uuid": uuid,
-            "tls": False,
-            "network": "ws",
-            "ws-opts": {
-                "path": f"{path}",
-                "headers": {
-                    "Host": host
+        try:
+            security = re.search(r'security=([^&]+)&', proxy_url).group(1)
+        except:
+            security = ''
+        if(security == 'none' or security == ''):
+            proxy = {
+                "name": f"{name}",
+                "server": server,
+                "port": port,
+                "type": "vless",
+                "uuid": uuid,
+                "tls": False,
+                "network": "ws",
+                "ws-opts": {
+                    "path": f"{path}",
+                    "headers": {
+                        "Host": host
+                    }
                 }
             }
-        }
+
+        elif(security == 'tls'):
+            try:
+                sni = re.search(r'sni=([^&]+)&', proxy_url).group(1)
+            except:
+                sni = ''
+            proxy = {
+                "name": f"{name}",
+                "server": server,
+                "port": port,
+                "type": "vless",
+                "uuid": uuid,
+                "tls": True,
+                "servername": sni,
+                "network": "ws",
+                "ws-opts": {
+                    "path": f"{path}",
+                    "headers": {
+                        "Host": host
+                    }
+                }
+            }
+
+        else:
+            continue
 
         # print(name, uuid, server, port, host, path)
         proxies.append(proxy)

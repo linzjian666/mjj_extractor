@@ -170,7 +170,8 @@ proxies:
   port: 443
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: false
+  tls: true
+  servername: edgood.king361.cf
   network: ws
   ws-opts:
     path: /?ed2048
@@ -181,7 +182,8 @@ proxies:
   port: 49999
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: false
+  tls: true
+  servername: edgood.king361.cf
   network: ws
   ws-opts:
     path: /?ed2048
@@ -192,7 +194,8 @@ proxies:
   port: 443
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: false
+  tls: true
+  servername: edgood.king361.cf
   network: ws
   ws-opts:
     path: /?ed2048
@@ -203,7 +206,8 @@ proxies:
   port: 443
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: false
+  tls: true
+  servername: edgood.king361.cf
   network: ws
   ws-opts:
     path: /?ed2048
@@ -214,7 +218,8 @@ proxies:
   port: 443
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: false
+  tls: true
+  servername: edgood.king361.cf
   network: ws
   ws-opts:
     path: /?ed2048
@@ -225,7 +230,8 @@ proxies:
   port: 30560
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: false
+  tls: true
+  servername: edgood.king361.cf
   network: ws
   ws-opts:
     path: /?ed2048
@@ -236,7 +242,8 @@ proxies:
   port: 3000
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: false
+  tls: true
+  servername: edgood.king361.cf
   network: ws
   ws-opts:
     path: /?ed2048
@@ -247,7 +254,8 @@ proxies:
   port: 1935
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: false
+  tls: true
+  servername: edgood.king361.cf
   network: ws
   ws-opts:
     path: /?ed2048
