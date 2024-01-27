@@ -25,7 +25,7 @@ A python script to extract [mjjonone/mjj](https://github.com/mjjonone/mjj) Proxi
 
 - Proxy urls:
 
-  [https://raw.githubusercontent.com/linzjian666/mjj_extractor/main/outputs/proxy_urls](https://raw.githubusercontent.com/linzjian666/mjj_extractor/main/outputs/proxy_urls)
+  [https://raw.githubusercontent.com/linzjian666/mjj_extractor/main/outputs/proxy_urls](https://raw.githubusercontent.com/linzjian666/mjj_extractor/main/outputs/vless_urls)
 
 (Alternate)
 
@@ -39,7 +39,7 @@ A python script to extract [mjjonone/mjj](https://github.com/mjjonone/mjj) Proxi
 
 - Proxy urls:
 
-  [https://fastly.jsdelivr.net/gh/linzjian666/mjj_extractor@main/outputs/proxy_urls](https://fastly.jsdelivr.net/gh/linzjian666/mjj_extractor@main/outputs/proxy_urls)
+  [https://fastly.jsdelivr.net/gh/linzjian666/mjj_extractor@main/outputs/proxy_urls](https://fastly.jsdelivr.net/gh/linzjian666/mjj_extractor@main/outputs/vless_urls)
 
 </details>
 
