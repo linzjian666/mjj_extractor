@@ -87,19 +87,8 @@ proxies:
   ws-opts:
     path: /argo-vless?ed=2048
     headers:
-      Host: irrigation-documentation-our-select.trycloudflare.com
-- name: 🇩🇪 DE-Amazon.com-Vl-8
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: finest-soul-deployment-say.trycloudflare.com
-- name: 🇺🇸 US-Digital_Ocean-Vl-9
+      Host: keyboards-oct-actual-colours.trycloudflare.com
+- name: 🇺🇸 US-Digital_Ocean-Vl-8
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -110,6 +99,17 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: week-manitoba-formula-sterling.trycloudflare.com
+- name: 🇩🇪 DE-Amazon.com-Vl-9
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: mild-stable-horrible-chairs.trycloudflare.com
 - name: 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
   server: download.yunzhongzhuan.com
   port: 8080
@@ -121,40 +121,7 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: vol-powerful-alive-harassment.trycloudflare.com
-- name: 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: us.king361.cf
-- name: 🇬🇧 GB-Google_Cloud-Vl-12
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: marc-clark-connect-directed.trycloudflare.com
-- name: 🇺🇸 US-Google_Cloud-Vl-13
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: bios-relaxation-applies-outsourcing.trycloudflare.com
-- name: 🇺🇸 US-Microsoft_Azure-Vl-14
+- name: 🇺🇸 US-Microsoft_Azure-Vl-11
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -165,6 +132,39 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: dean-fifty-access-br.trycloudflare.com
+- name: 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: us.king361.cf
+- name: 🇬🇧 GB-Google_Cloud-Vl-13
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: marc-clark-connect-directed.trycloudflare.com
+- name: 🇺🇸 US-Google_Cloud-Vl-14
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: bios-relaxation-applies-outsourcing.trycloudflare.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -178,13 +178,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -198,13 +198,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -217,13 +217,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -236,13 +236,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -255,13 +255,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -274,13 +274,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 - name: 📲 电报信息
   type: select
   proxies:
@@ -293,13 +293,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -312,13 +312,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -331,13 +331,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -350,13 +350,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -369,13 +369,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -388,13 +388,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -416,13 +416,13 @@ proxy-groups:
   - 🇩🇪 DE-Hetzner-5
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
-  - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-8
+  - 🇩🇪 DE-Amazon.com-Vl-9
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-11
-  - 🇬🇧 GB-Google_Cloud-Vl-12
-  - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Microsoft_Azure-Vl-14
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  - 🇬🇧 GB-Google_Cloud-Vl-13
+  - 🇺🇸 US-Google_Cloud-Vl-14
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
