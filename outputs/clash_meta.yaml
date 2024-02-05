@@ -99,18 +99,7 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: handle-jd-favourites-framed.trycloudflare.com
-- name: 🇺🇸 US-Digital_Ocean-Vl-9
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: week-manitoba-formula-sterling.trycloudflare.com
-- name: 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
+- name: 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -121,7 +110,7 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: vol-powerful-alive-harassment.trycloudflare.com
-- name: 🇬🇧 GB-Google_Cloud-Vl-11
+- name: 🇺🇸 US-Digital_Ocean-Vl-10
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -131,8 +120,8 @@ proxies:
   ws-opts:
     path: /argo-vless?ed=2048
     headers:
-      Host: marc-clark-connect-directed.trycloudflare.com
-- name: 🇺🇸 US-Microsoft_Azure-Vl-12
+      Host: week-manitoba-formula-sterling.trycloudflare.com
+- name: 🇺🇸 US-Microsoft_Azure-Vl-11
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -143,6 +132,17 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: dean-fifty-access-br.trycloudflare.com
+- name: 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: us.king361.cf
 - name: 🇺🇸 US-Google_Cloud-Vl-13
   server: download.yunzhongzhuan.com
   port: 8080
@@ -154,7 +154,7 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: bios-relaxation-applies-outsourcing.trycloudflare.com
-- name: 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+- name: 🇬🇧 GB-Google_Cloud-Vl-14
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -164,8 +164,32 @@ proxies:
   ws-opts:
     path: /argo-vless?ed=2048
     headers:
-      Host: us.king361.cf
+      Host: marc-clark-connect-directed.trycloudflare.com
 - name: 🇯🇵 JP-Tokyo-xTom-ED-1
+  server: 45.142.166.218
+  port: 50001
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  server: 47.76.77.103
+  port: 443
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇯🇵 JP-Tokyo-xTom-ED-3
   server: 91.200.242.158
   port: 40451
   type: vless
@@ -177,7 +201,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇯🇵 JP-Tokyo-xTom-ED-2
+- name: 🇯🇵 JP-Tokyo-xTom-ED-4
   server: 85.113.70.49
   port: 19273
   type: vless
@@ -189,33 +213,9 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
+- name: 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
   server: 38.181.73.64
   port: 50394
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  server: 118.163.101.44
-  port: 44332
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-5
-  server: 47.76.49.246
-  port: 443
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -239,17 +239,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -264,17 +264,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -288,17 +288,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -312,17 +312,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -336,17 +336,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -360,17 +360,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 - name: 📲 电报信息
   type: select
   proxies:
@@ -384,17 +384,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -408,17 +408,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -432,17 +432,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -456,17 +456,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -480,17 +480,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -504,17 +504,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -537,17 +537,17 @@ proxy-groups:
   - 🇺🇸 US-AMAZON-6
   - 🇸🇬 SG-Amazon.com-Vl-7
   - 🇩🇪 DE-Amazon.com-Vl-8
-  - 🇺🇸 US-Digital_Ocean-Vl-9
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-10
-  - 🇬🇧 GB-Google_Cloud-Vl-11
-  - 🇺🇸 US-Microsoft_Azure-Vl-12
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-9
+  - 🇺🇸 US-Digital_Ocean-Vl-10
+  - 🇺🇸 US-Microsoft_Azure-Vl-11
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-12
   - 🇺🇸 US-Google_Cloud-Vl-13
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-14
+  - 🇬🇧 GB-Google_Cloud-Vl-14
   - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-3
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇯🇵 JP-Tokyo-xTom-ED-3
+  - 🇯🇵 JP-Tokyo-xTom-ED-4
+  - 🇸🇬 SG-Singapore-Eons Data Communications-ED-5
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
