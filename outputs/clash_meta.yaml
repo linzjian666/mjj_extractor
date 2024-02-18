@@ -11,7 +11,29 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
-- name: 🇸🇬 SG-vl-1
+- name: 🇸🇬 SG-Amazon.com-Vl-1
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: failed-favorites-characters-guy.trycloudflare.com
+- name: 🇩🇪 DE-Amazon.com-Vl-2
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: sm-definitely-kenneth-sec.trycloudflare.com
+- name: 🇸🇬 SG-vl-3
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -22,7 +44,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: sg.889876.xyz
-- name: 🇮🇪 IE-Amazon.com-2
+- name: 🇮🇪 IE-Amazon.com-4
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -33,7 +55,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: hbets.889876.xyz
-- name: 🇵🇱 PL-Sp. z o.o.-3
+- name: 🇵🇱 PL-Sp. z o.o.-5
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -44,28 +66,6 @@ proxies:
     path: /?ed=2048
     headers:
       Host: ob.king.now.cc
-- name: 🇸🇬 SG-Amazon.com-Vl-4
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: applicable-compilation-quarters-municipal.trycloudflare.com
-- name: 🇩🇪 DE-Amazon.com-Vl-5
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: dt-moderator-delay-genius.trycloudflare.com
 - name: 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   server: download.yunzhongzhuan.com
   port: 8080
@@ -77,29 +77,7 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: consistently-jefferson-off-regression.trycloudflare.com
-- name: 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: us.king361.cf
-- name: 🇺🇸 US-Microsoft_Azure-Vl-8
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: virgin-nature-recorder-universal.trycloudflare.com
-- name: 🇬🇧 GB-Google_Cloud-Vl-9
+- name: 🇬🇧 GB-Google_Cloud-Vl-7
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -110,6 +88,28 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: denied-yield-prohibited-shirt.trycloudflare.com
+- name: 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: us.king361.cf
+- name: 🇺🇸 US-Microsoft_Azure-Vl-9
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: virgin-nature-recorder-universal.trycloudflare.com
 - name: 🇺🇸 US-Google_Cloud-Vl-10
   server: download.yunzhongzhuan.com
   port: 8080
@@ -121,9 +121,9 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: eugene-member-pads-clusters.trycloudflare.com
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  server: 8.210.101.157
-  port: 2053
+- name: 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
+  server: 118.163.101.44
+  port: 44332
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -134,8 +134,8 @@ proxies:
     headers:
       Host: edgood.king361.cf
 - name: 🇯🇵 JP-Tokyo-xTom-ED-2
-  server: 193.111.31.143
-  port: 12587
+  server: 45.66.217.153
+  port: 34237
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -145,21 +145,9 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  server: 125.228.8.157
-  port: 11541
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 CN-Hong Kong-Nearoute-ED-4
-  server: 110.72.99.106
-  port: 49001
+- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  server: 8.210.101.157
+  port: 2053
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -175,230 +163,218 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 - name: 📺 巴哈姆特
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 - name: 📺 哔哩哔哩
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 - name: 🌏 国内媒体
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 - name: 📲 电报信息
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 - name: 📢 谷歌FCM
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 - name: 🤖 OpenAI
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -413,20 +389,19 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬 SG-vl-1
-  - 🇮🇪 IE-Amazon.com-2
-  - 🇵🇱 PL-Sp. z o.o.-3
-  - 🇸🇬 SG-Amazon.com-Vl-4
-  - 🇩🇪 DE-Amazon.com-Vl-5
+  - 🇸🇬 SG-Amazon.com-Vl-1
+  - 🇩🇪 DE-Amazon.com-Vl-2
+  - 🇸🇬 SG-vl-3
+  - 🇮🇪 IE-Amazon.com-4
+  - 🇵🇱 PL-Sp. z o.o.-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-7
-  - 🇺🇸 US-Microsoft_Azure-Vl-8
-  - 🇬🇧 GB-Google_Cloud-Vl-9
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-8
+  - 🇺🇸 US-Microsoft_Azure-Vl-9
   - 🇺🇸 US-Google_Cloud-Vl-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-1
   - 🇯🇵 JP-Tokyo-xTom-ED-2
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-3
-  - 🇨🇳 CN-Hong Kong-Nearoute-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
