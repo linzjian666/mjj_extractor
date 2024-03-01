@@ -77,7 +77,7 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: weddings-adam-fix-catalogue.trycloudflare.com
-- name: 🇺🇸 US-Google_Cloud-Vl-7
+- name: 🇺🇸 US-Microsoft_Azure-Vl-7
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -87,7 +87,7 @@ proxies:
   ws-opts:
     path: /argo-vless?ed=2048
     headers:
-      Host: eugene-member-pads-clusters.trycloudflare.com
+      Host: jamaica-miniature-reynolds-review.trycloudflare.com
 - name: 🇬🇧 GB-Google_Cloud-Vl-8
   server: download.yunzhongzhuan.com
   port: 8080
@@ -99,7 +99,7 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: denied-yield-prohibited-shirt.trycloudflare.com
-- name: 🇺🇸 US-Microsoft_Azure-Vl-9
+- name: 🇺🇸 US-Google_Cloud-Vl-9
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -109,19 +109,20 @@ proxies:
   ws-opts:
     path: /argo-vless?ed=2048
     headers:
-      Host: jamaica-miniature-reynolds-review.trycloudflare.com
-- name: 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  server: download.yunzhongzhuan.com
-  port: 8080
+      Host: eugene-member-pads-clusters.trycloudflare.com
+- name: 🇨🇳 CN-San Jose-China Unicom-ED-1
+  server: 116.162.172.123
+  port: 50038
   type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
   network: ws
   ws-opts:
-    path: /argo-vless?ed=2048
+    path: /?ed2048
     headers:
-      Host: us.king361.cf
-- name: 🇯🇵 JP-Tokyo-xTom-ED-1
+      Host: edgood.king361.cf
+- name: 🇯🇵 JP-Tokyo-xTom-ED-2
   server: 176.119.150.179
   port: 49437
   type: vless
@@ -133,7 +134,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇺🇸 US-Los Angeles-DMIT-ED-2
+- name: 🇺🇸 US-Los Angeles-DMIT-ED-3
   server: 154.17.25.205
   port: 49996
   type: vless
@@ -145,7 +146,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
   server: 43.159.49.198
   port: 5532
   type: vless
@@ -157,7 +158,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇨🇳 CN-London-China Telecom-ED-4
+- name: 🇨🇳 CN-London-China Telecom-ED-5
   server: 120.92.145.169
   port: 2337
   type: vless
@@ -169,7 +170,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
+- name: 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
   server: 103.30.77.65
   port: 6443
   type: vless
@@ -181,7 +182,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
+- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   server: 43.134.166.213
   port: 10444
   type: vless
@@ -193,7 +194,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇨🇳 CN-Los Angeles-China Mobile-ED-7
+- name: 🇨🇳 CN-Los Angeles-China Mobile-ED-8
   server: 120.195.184.80
   port: 50038
   type: vless
@@ -205,33 +206,9 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-9
   server: 8.218.3.12
   port: 2053
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 CN-San Jose-China Unicom-ED-9
-  server: 116.162.172.124
-  port: 50038
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
-  server: 38.207.164.178
-  port: 2004
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -253,20 +230,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -279,20 +254,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -304,20 +277,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -329,20 +300,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -354,20 +323,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -379,20 +346,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 - name: 📲 电报信息
   type: select
   proxies:
@@ -404,20 +369,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -429,20 +392,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -454,20 +415,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -479,20 +438,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -504,20 +461,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -529,20 +484,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -563,20 +516,18 @@ proxy-groups:
   - 🇸🇬 SG-Amazon.com-Vl-4
   - 🇩🇪 DE-Amazon.com-Vl-5
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
-  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-7
   - 🇬🇧 GB-Google_Cloud-Vl-8
-  - 🇺🇸 US-Microsoft_Azure-Vl-9
-  - 🇺🇸 US-Atomic_Holdings_LLC-Vl-10
-  - 🇯🇵 JP-Tokyo-xTom-ED-1
-  - 🇺🇸 US-Los Angeles-DMIT-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-London-China Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-7
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
-  - 🇨🇳 CN-San Jose-China Unicom-ED-9
-  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-10
+  - 🇺🇸 US-Google_Cloud-Vl-9
+  - 🇨🇳 CN-San Jose-China Unicom-ED-1
+  - 🇯🇵 JP-Tokyo-xTom-ED-2
+  - 🇺🇸 US-Los Angeles-DMIT-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 CN-London-China Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Overland Storage-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-8
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
