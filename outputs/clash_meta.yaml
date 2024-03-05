@@ -110,7 +110,19 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: eugene-member-pads-clusters.trycloudflare.com
-- name: 🇨🇳 CN-San Jose-China Unicom-ED-1
+- name: 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  server: 38.47.110.51
+  port: 123
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇨🇳 CN-San Jose-China Unicom-ED-2
   server: 116.162.172.123
   port: 50038
   type: vless
@@ -122,7 +134,67 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
+- name: 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  server: 192.243.125.209
+  port: 8443
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  server: 118.163.128.81
+  port: 14092
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  server: 120.195.184.80
+  port: 50038
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  server: 152.32.190.239
+  port: 4431
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇨🇳 CN-San Jose-China Unicom-ED-7
+  server: 116.162.172.123
+  port: 50038
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
   server: 216.24.191.69
   port: 42247
   type: vless
@@ -134,7 +206,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
   server: 43.156.105.78
   port: 26574
   type: vless
@@ -146,7 +218,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇨🇳 CN-Los Angeles-China Mobile-ED-4
+- name: 🇨🇳 CN-Los Angeles-China Mobile-ED-10
   server: 120.195.184.23
   port: 50038
   type: vless
@@ -158,93 +230,9 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇯🇵 JP-Tokyo-xTom-ED-5
+- name: 🇯🇵 JP-Tokyo-xTom-ED-11
   server: 147.78.243.164
   port: 57391
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 CN-San Jose-China Unicom-ED-6
-  server: 116.162.172.124
-  port: 50038
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  server: 8.218.22.210
-  port: 443
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 CN-San Jose-China Unicom-ED-8
-  server: 116.162.172.123
-  port: 50038
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇯🇵 JP-Tokyo-xTom-ED-9
-  server: 176.119.150.204
-  port: 2008
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  server: 118.163.101.44
-  port: 44332
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  server: 103.137.63.37
-  port: 46832
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 CN-San Jose-China Unicom-ED-12
-  server: 116.162.172.124
-  port: 50038
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -269,18 +257,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -296,18 +283,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -322,18 +308,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -348,18 +333,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -374,18 +358,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -400,18 +383,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 - name: 📲 电报信息
   type: select
   proxies:
@@ -426,18 +408,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -452,18 +433,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -478,18 +458,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -504,18 +483,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -530,18 +508,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -556,18 +533,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -591,18 +567,17 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-7
   - 🇺🇸 US-Microsoft_Azure-Vl-8
   - 🇺🇸 US-Google_Cloud-Vl-9
-  - 🇨🇳 CN-San Jose-China Unicom-ED-1
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 CN-Los Angeles-China Mobile-ED-4
-  - 🇯🇵 JP-Tokyo-xTom-ED-5
-  - 🇨🇳 CN-San Jose-China Unicom-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 CN-San Jose-China Unicom-ED-8
-  - 🇯🇵 JP-Tokyo-xTom-ED-9
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-10
-  - 🇨🇳 TW-Hong Kong-Pittqiao Network Information Co.Ltd.-ED-11
-  - 🇨🇳 CN-San Jose-China Unicom-ED-12
+  - 🇯🇵 JP-Tokyo-Cloudflare Warp-ED-1
+  - 🇨🇳 CN-San Jose-China Unicom-ED-2
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-5
+  - 🇭🇰 HK-Hong Kong-Ucloud Information Technology Hk-ED-6
+  - 🇨🇳 CN-San Jose-China Unicom-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-8
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 CN-Los Angeles-China Mobile-ED-10
+  - 🇯🇵 JP-Tokyo-xTom-ED-11
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
