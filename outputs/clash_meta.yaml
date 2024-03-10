@@ -54,7 +54,7 @@ proxies:
   ws-opts:
     path: /argo-vless?ed=2048
     headers:
-      Host: dim-related-compliant-darwin.trycloudflare.com
+      Host: superior-forecasts-gm-investigation.trycloudflare.com
 - name: 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   server: download.yunzhongzhuan.com
   port: 8080
@@ -66,7 +66,18 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: hug.king361.cf
-- name: 🇬🇧 GB-Google_Cloud-Vl-6
+- name: 🇺🇸 US-Google_Cloud-Vl-6
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: gregory-washing-e-progress.trycloudflare.com
+- name: 🇬🇧 GB-Google_Cloud-Vl-7
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -77,7 +88,7 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: denied-yield-prohibited-shirt.trycloudflare.com
-- name: 🇺🇸 US-Microsoft_Azure-Vl-7
+- name: 🇺🇸 US-Microsoft_Azure-Vl-8
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -88,20 +99,9 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: drums-competent-positive-antiques.trycloudflare.com
-- name: 🇺🇸 US-Google_Cloud-Vl-8
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: eugene-member-pads-clusters.trycloudflare.com
-- name: 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
-  server: 107.165.195.179
-  port: 443
+- name: 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
+  server: 20.6.32.20
+  port: 4431
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -123,7 +123,79 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
+- name: 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  server: 216.24.176.119
+  port: 54999
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  server: 212.50.246.211
+  port: 443
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  server: 20.191.143.72
+  port: 443
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇺🇸 US-Los Angeles-DMIT-ED-6
+  server: 154.17.6.131
+  port: 12807
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  server: 107.165.195.179
+  port: 443
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  server: 34.150.33.254
+  port: 4466
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
   server: 124.202.166.165
   port: 443
   type: vless
@@ -135,45 +207,9 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-4
+- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-10
   server: 8.210.55.134
   port: 2083
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇯🇵 JP-Tokyo-DMIT-ED-5
-  server: 103.117.103.150
-  port: 31913
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  server: 8.210.66.190
-  port: 2096
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
-  server: 114.214.202.60
-  port: 8443
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -194,16 +230,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -215,16 +254,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -235,16 +277,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -255,16 +300,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -275,16 +323,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -295,16 +346,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 - name: 📲 电报信息
   type: select
   proxies:
@@ -315,16 +369,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -335,16 +392,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -355,16 +415,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -375,16 +438,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -395,16 +461,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -415,16 +484,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -444,16 +516,19 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
-  - 🇺🇸 US-Microsoft_Azure-Vl-7
-  - 🇺🇸 US-Google_Cloud-Vl-8
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-1
+  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-7
+  - 🇺🇸 US-Microsoft_Azure-Vl-8
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-1
   - 🇭🇰 HK-Hong Kong-Google Cloud-ED-2
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇯🇵 JP-Tokyo-DMIT-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-7
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Microsoft Azure-ED-5
+  - 🇺🇸 US-Los Angeles-DMIT-ED-6
+  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
+  - 🇭🇰 HK-Hong Kong-Google Cloud-ED-8
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-9
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
