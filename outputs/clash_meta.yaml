@@ -100,79 +100,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇯🇵 JP-Osaka-xTom-ED-2
-  server: 45.251.240.73
-  port: 34237
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  server: 216.24.191.69
-  port: 10001
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  server: 45.137.181.132
-  port: 443
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  server: 203.66.14.48
-  port: 34237
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  server: 124.202.166.165
-  port: 443
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  server: 8.218.204.128
-  port: 2083
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
+- name: 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
   server: 35.236.140.97
   port: 3000
   type: vless
@@ -184,9 +112,9 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  server: 39.165.243.29
-  port: 28367
+- name: 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  server: 202.81.231.30
+  port: 55576
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -196,9 +124,81 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-10
-  server: 8.218.52.115
-  port: 2053
+- name: 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  server: 202.39.212.181
+  port: 28731
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  server: 101.78.244.128
+  port: 12313
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇯🇵 JP-Osaka-xTom-ED-6
+  server: 45.251.240.73
+  port: 34237
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  server: 216.24.191.69
+  port: 10001
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  server: 45.137.181.132
+  port: 443
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  server: 203.66.14.48
+  port: 34237
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
+  server: 124.202.166.165
+  port: 443
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -209,20 +209,8 @@ proxies:
     headers:
       Host: edgood.king361.cf
 - name: 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  server: 8.218.110.180
-  port: 2087
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 CN-London-China Telecom-ED-12
-  server: 120.92.145.169
-  port: 2337
+  server: 8.218.204.128
+  port: 2083
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -246,17 +234,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -271,17 +258,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -295,17 +281,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -319,17 +304,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -343,17 +327,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -367,17 +350,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 - name: 📲 电报信息
   type: select
   proxies:
@@ -391,17 +373,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -415,17 +396,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -439,17 +419,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -463,17 +442,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -487,17 +465,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -511,17 +488,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -544,17 +520,16 @@ proxy-groups:
   - 🇬🇧 GB-Google_Cloud-Vl-6
   - 🇺🇸 US-Google_Cloud-Vl-7
   - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-1
-  - 🇯🇵 JP-Osaka-xTom-ED-2
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-3
-  - 🇯🇵 JP-Tokyo-Akari Networks-ED-4
-  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-5
-  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-6
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-7
-  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-8
-  - 🇨🇳 CN-San Jose-Henan Mobile Communications Co.-ED-9
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇨🇳 TW-Hong Kong-Google Cloud-ED-2
+  - 🇭🇰 HK-Hong Kong-2012 Netfront-ED-3
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+  - 🇭🇰 HK-Hong Kong-Hong Kong Broadband Network-ED-5
+  - 🇯🇵 JP-Osaka-xTom-ED-6
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-7
+  - 🇯🇵 JP-Tokyo-Akari Networks-ED-8
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-9
+  - 🇨🇳 CN-Los Angeles-Krypt Technologies-ED-10
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇨🇳 CN-London-China Telecom-ED-12
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
