@@ -54,7 +54,7 @@ proxies:
   ws-opts:
     path: /argo-vless?ed=2048
     headers:
-      Host: newcastle-importantly-upcoming-mac.trycloudflare.com
+      Host: achieving-michael-warner-pa.trycloudflare.com
 - name: 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   server: download.yunzhongzhuan.com
   port: 8080
@@ -66,18 +66,7 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: hug.king361.cf
-- name: 🇺🇸 US-Google_Cloud-Vl-6
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: gregory-washing-e-progress.trycloudflare.com
-- name: 🇬🇧 GB-Google_Cloud-Vl-7
+- name: 🇬🇧 GB-Google_Cloud-Vl-6
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -88,7 +77,66 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: mexican-tex-download-accessed.trycloudflare.com
-- name: 🇺🇸 US-Los Angeles-DMIT-ED-1
+- name: 🇺🇸 US-Google_Cloud-Vl-7
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: gregory-washing-e-progress.trycloudflare.com
+- name: 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  server: 114.214.202.60
+  port: 8443
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  server: 47.76.33.40
+  port: 2053
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  server: 193.122.123.165
+  port: 50000
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇭🇰 HK-Singapore-Alibaba-ED-4
+  server: 8.218.156.91
+  port: 443
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇺🇸 US-Los Angeles-DMIT-ED-5
   server: 154.17.21.134
   port: 18446
   type: vless
@@ -100,7 +148,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
+- name: 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
   server: 20.243.29.138
   port: 34237
   type: vless
@@ -112,7 +160,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   server: 43.134.166.213
   port: 10444
   type: vless
@@ -124,7 +172,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-4
+- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   server: 8.210.245.224
   port: 443
   type: vless
@@ -136,7 +184,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
+- name: 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
   server: 149.104.35.60
   port: 5010
   type: vless
@@ -148,21 +196,9 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
+- name: 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
   server: 116.192.163.95
   port: 27790
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇺🇸 US-Los Angeles-DMIT-ED-7
-  server: 154.21.81.31
-  port: 8443
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -183,15 +219,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -203,15 +242,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -222,15 +264,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -241,15 +286,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -260,15 +308,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -279,15 +330,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 - name: 📲 电报信息
   type: select
   proxies:
@@ -298,15 +352,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -317,15 +374,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -336,15 +396,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -355,15 +418,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -374,15 +440,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -393,15 +462,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -421,15 +493,18 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o.-3
   - 🇩🇪 DE-Amazon.com-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
-  - 🇬🇧 GB-Google_Cloud-Vl-7
-  - 🇺🇸 US-Los Angeles-DMIT-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-4
-  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-5
-  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-6
-  - 🇺🇸 US-Los Angeles-DMIT-ED-7
+  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-7
+  - 🇨🇳 CN-Hong Kong-China Education and Research Network Center-ED-1
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-2
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+  - 🇭🇰 HK-Singapore-Alibaba-ED-4
+  - 🇺🇸 US-Los Angeles-DMIT-ED-5
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+  - 🇭🇰 HK-Hong Kong-Oracle Cloud-ED-9
+  - 🇨🇳 CN-Hong Kong-Akari Networks Limited-ED-10
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
