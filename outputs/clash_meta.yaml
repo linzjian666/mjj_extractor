@@ -55,18 +55,7 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: mexican-tex-download-accessed.trycloudflare.com
-- name: 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: hug.king361.cf
-- name: 🇺🇸 US-Google_Cloud-Vl-6
+- name: 🇺🇸 US-Google_Cloud-Vl-5
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -77,7 +66,42 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: gregory-washing-e-progress.trycloudflare.com
+- name: 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: hug.king361.cf
 - name: 🇭🇰 HK-Hong Kong-Alibaba-ED-1
+  server: 8.217.167.88
+  port: 2053
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
+  server: 64.64.231.33
+  port: 36882
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-3
   server: 47.75.101.0
   port: 3443
   type: vless
@@ -89,7 +113,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
+- name: 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
   server: 64.64.234.235
   port: 53456
   type: vless
@@ -101,7 +125,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
+- name: 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
   server: 152.70.239.134
   port: 34237
   type: vless
@@ -113,7 +137,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇯🇵 JP-Osaka-IT7 Networks-ED-4
+- name: 🇯🇵 JP-Osaka-IT7 Networks-ED-6
   server: 45.78.55.32
   port: 28874
   type: vless
@@ -125,7 +149,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   server: 43.159.35.190
   port: 49142
   type: vless
@@ -137,7 +161,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-6
+- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   server: 8.217.159.210
   port: 2083
   type: vless
@@ -149,7 +173,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-xTom-ED-7
+- name: 🇭🇰 HK-Hong Kong-xTom-ED-9
   server: 166.88.141.43
   port: 10189
   type: vless
@@ -161,7 +185,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-8
+- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-10
   server: 8.217.145.40
   port: 2083
   type: vless
@@ -173,45 +197,9 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-xTom-ED-9
+- name: 🇭🇰 HK-Hong Kong-xTom-ED-11
   server: 45.78.37.231
   port: 16491
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  server: 38.47.125.129
-  port: 8443
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  server: 47.76.33.40
-  port: 2053
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-12
-  server: 8.218.142.253
-  port: 2053
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -231,20 +219,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -255,20 +242,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -278,20 +264,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -301,20 +286,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -324,20 +308,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -347,20 +330,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 - name: 📲 电报信息
   type: select
   proxies:
@@ -370,20 +352,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -393,20 +374,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -416,20 +396,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -439,20 +418,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -462,20 +440,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -485,20 +462,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -517,20 +493,19 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇬🇧 GB-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Google_Cloud-Vl-6
+  - 🇺🇸 US-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
   - 🇺🇸 US-Los Angeles-Fiber-logic-ED-2
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-3
-  - 🇯🇵 JP-Osaka-IT7 Networks-ED-4
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-6
-  - 🇭🇰 HK-Hong Kong-xTom-ED-7
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-3
+  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-4
+  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-5
+  - 🇯🇵 JP-Osaka-IT7 Networks-ED-6
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-7
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-8
   - 🇭🇰 HK-Hong Kong-xTom-ED-9
-  - 🇯🇵 JP-Tokyo-Nearoute-ED-10
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-11
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-12
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-10
+  - 🇭🇰 HK-Hong Kong-xTom-ED-11
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
