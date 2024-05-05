@@ -78,102 +78,6 @@ proxies:
     headers:
       Host: gregory-washing-e-progress.trycloudflare.com
 - name: 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  server: 47.76.77.103
-  port: 443
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  server: 45.136.15.212
-  port: 34237
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  server: 203.183.9.89
-  port: 34237
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-xTom-ED-4
-  server: 45.78.35.59
-  port: 23639
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  server: 64.64.224.226
-  port: 563
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  server: 152.70.239.134
-  port: 34237
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  server: 172.252.245.21
-  port: 34237
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  server: 203.69.248.40
-  port: 27381
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-9
   server: 47.76.49.246
   port: 2053
   type: vless
@@ -185,9 +89,81 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-xTom-ED-10
-  server: 107.187.39.6
+- name: 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  server: 67.230.160.122
+  port: 50059
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  server: 220.132.74.19
+  port: 11683
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  server: 52.175.20.132
+  port: 32211
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  server: 47.76.77.103
+  port: 443
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  server: 45.136.15.212
   port: 34237
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  server: 203.183.9.89
+  port: 34237
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇭🇰 HK-Hong Kong-xTom-ED-8
+  server: 45.78.35.59
+  port: 23639
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -210,15 +186,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -232,15 +206,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -253,15 +225,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -274,15 +244,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -295,15 +263,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -316,15 +282,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 - name: 📲 电报信息
   type: select
   proxies:
@@ -337,15 +301,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -358,15 +320,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -379,15 +339,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -400,15 +358,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -421,15 +377,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -442,15 +396,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -472,15 +424,13 @@ proxy-groups:
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
   - 🇺🇸 US-Google_Cloud-Vl-6
   - 🇭🇰 HK-Hong Kong-Alibaba-ED-1
-  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-2
-  - 🇯🇵 JP-Osaka-IDC Frontier-ED-3
-  - 🇭🇰 HK-Hong Kong-xTom-ED-4
-  - 🇺🇸 US-Los Angeles-Fiber-logic-ED-5
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-6
-  - 🇯🇵 JP-Osaka-Evoxt Enterprise-ED-7
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-8
-  - 🇭🇰 HK-Hong Kong-Alibaba-ED-9
-  - 🇭🇰 HK-Hong Kong-xTom-ED-10
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-2
+  - 🇨🇳 TW-Taipei-Chunghwa Telecom-ED-3
+  - 🇭🇰 HK-Hong Kong-Microsoft Azure-ED-4
+  - 🇭🇰 HK-Hong Kong-Alibaba-ED-5
+  - 🇭🇰 HK-Hong Kong-Lucidacloud-ED-6
+  - 🇯🇵 JP-Osaka-IDC Frontier-ED-7
+  - 🇭🇰 HK-Hong Kong-xTom-ED-8
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
