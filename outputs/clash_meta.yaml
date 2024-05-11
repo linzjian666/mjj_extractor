@@ -55,18 +55,7 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: pole-nothing-dual-arbor.trycloudflare.com
-- name: 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  server: download.yunzhongzhuan.com
-  port: 8080
-  type: vless
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  tls: false
-  network: ws
-  ws-opts:
-    path: /argo-vless?ed=2048
-    headers:
-      Host: hug.king361.cf
-- name: 🇬🇧 GB-Google_Cloud-Vl-6
+- name: 🇬🇧 GB-Google_Cloud-Vl-5
   server: download.yunzhongzhuan.com
   port: 8080
   type: vless
@@ -77,6 +66,17 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: calculators-safari-carefully-israeli.trycloudflare.com
+- name: 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
+  server: download.yunzhongzhuan.com
+  port: 8080
+  type: vless
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  tls: false
+  network: ws
+  ws-opts:
+    path: /argo-vless?ed=2048
+    headers:
+      Host: hug.king361.cf
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -87,8 +87,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -99,8 +99,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -110,8 +110,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -121,8 +121,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -132,8 +132,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -143,8 +143,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 - name: 📲 电报信息
   type: select
   proxies:
@@ -154,8 +154,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -165,8 +165,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -176,8 +176,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -187,8 +187,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -198,8 +198,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -209,8 +209,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -229,8 +229,8 @@ proxy-groups:
   - 🇮🇪 IE-Amazon.com-2
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇺🇸 US-Google_Cloud-Vl-4
-  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇬🇧 GB-Google_Cloud-Vl-6
+  - 🇬🇧 GB-Google_Cloud-Vl-5
+  - 🇩🇪 DE-ISPpro_Internet_KG-Vl-6
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
