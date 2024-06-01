@@ -66,7 +66,19 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: hug.king361.cf
-- name: 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
+- name: 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  server: 60.249.89.74
+  port: 23555
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
   server: 193.123.239.18
   port: 49248
   type: vless
@@ -78,7 +90,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
+- name: 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
   server: 20.37.114.66
   port: 34237
   type: vless
@@ -90,7 +102,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
   server: 101.32.242.254
   port: 53821
   type: vless
@@ -102,7 +114,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
+- name: 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
   server: 118.163.175.168
   port: 23555
   type: vless
@@ -114,57 +126,9 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
+- name: 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
   server: 43.129.68.40
   port: 58784
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  server: 152.70.245.66
-  port: 12693
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  server: 152.70.239.134
-  port: 34237
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  server: 43.154.34.74
-  port: 1935
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
-  server: 211.72.156.11
-  port: 23555
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -185,15 +149,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -205,15 +166,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -224,15 +182,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -243,15 +198,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -262,15 +214,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -281,15 +230,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 - name: 📲 电报信息
   type: select
   proxies:
@@ -300,15 +246,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -319,15 +262,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -338,15 +278,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -357,15 +294,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -376,15 +310,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -395,15 +326,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -423,15 +351,12 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-1
-  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-2
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-4
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-5
-  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-6
-  - 🇰🇷 KR-Seoul-Oracle Cloud-ED-7
-  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-8
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇰🇷 KR-Tokyo-Oracle Cloud-ED-2
+  - 🇯🇵 JP-Tokyo-Microsoft Azure-ED-3
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-4
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-5
+  - 🇭🇰 HK-Hong Kong-Tencent cloud computing-ED-6
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
