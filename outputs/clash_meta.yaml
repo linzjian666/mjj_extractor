@@ -66,7 +66,43 @@ proxies:
     path: /argo-vless?ed=2048
     headers:
       Host: hug.king361.cf
-- name: 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
+- name: 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  server: 61.222.202.100
+  port: 23555
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  server: 154.9.247.3
+  port: 27061
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  server: 129.226.88.14
+  port: 53149
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
+- name: 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
   server: 23.105.223.11
   port: 8080
   type: vless
@@ -78,7 +114,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
+- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
   server: 43.156.56.22
   port: 7676
   type: vless
@@ -90,7 +126,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇸🇬 SG-Singapore-Akile-ED-3
+- name: 🇸🇬 SG-Singapore-Akile-ED-6
   server: 185.81.28.178
   port: 31700
   type: vless
@@ -102,7 +138,7 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
+- name: 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
   server: 173.242.123.147
   port: 443
   type: vless
@@ -114,45 +150,9 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
-- name: 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
+- name: 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   server: 206.190.238.147
   port: 80
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  server: 43.156.56.22
-  port: 7676
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  server: 211.72.156.10
-  port: 23555
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: edgood.king361.cf
-  network: ws
-  ws-opts:
-    path: /?ed2048
-    headers:
-      Host: edgood.king361.cf
-- name: 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
-  server: 129.226.88.14
-  port: 53149
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
@@ -174,6 +174,18 @@ proxies:
     path: /?ed2048
     headers:
       Host: edgood.king361.cf
+- name: 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
+  server: 211.72.156.10
+  port: 23555
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: edgood.king361.cf
+  network: ws
+  ws-opts:
+    path: /?ed2048
+    headers:
+      Host: edgood.king361.cf
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -185,15 +197,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -205,15 +218,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -224,15 +238,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -243,15 +258,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -262,15 +278,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -281,15 +298,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 - name: 📲 电报信息
   type: select
   proxies:
@@ -300,15 +318,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -319,15 +338,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -338,15 +358,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -357,15 +378,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -376,15 +398,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -395,15 +418,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -423,15 +447,16 @@ proxy-groups:
   - 🇵🇱 PL-Sp. z o.o-3
   - 🇳🇱 NL-Microsoft_Azure-Vl-4
   - 🇩🇪 DE-ISPpro_Internet_KG-Vl-5
-  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-1
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-2
-  - 🇸🇬 SG-Singapore-Akile-ED-3
-  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-4
-  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-5
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-6
-  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-7
-  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-8
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-1
+  - 🇭🇰 HK-Hong Kong-Cloudie-ED-2
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-3
+  - 🇺🇸 US-Los Angeles-IT7 Networks-ED-4
+  - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-5
+  - 🇸🇬 SG-Singapore-Akile-ED-6
+  - 🇺🇸 US-Los Angeles-IT7 Networks Inc-ED-7
+  - 🇯🇵 JP-Osaka-IT7 Networks Inc-ED-8
   - 🇸🇬 SG-Singapore-Tencent cloud computing-ED-9
+  - 🇨🇳 TW-Kaohsiung City-Chunghwa Telecom-ED-10
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
